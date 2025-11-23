@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+ul{
+
+ text-decoration: none;
+ display: flex;
+  align-items: flex-end;
+}
+li{
+    padding-right: 45px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li, a{
+    text-decoration: none;
+}
+section{
+
+    overflow: hidden;
+    height: 100vh;
+    background-color: #0B121E;
+}
+
+nav{
+    border-radius: 15px;
+    margin-right: 150px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #d9d9d91f;
+}
+
+nav .left{
+     border-radius: 50px;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 55px;
+    height: 35px;
+       background-color: #d9d9d931;
+}
+
+nav .right{
+     margin-left: 45px;
+    margin-top: 5px; 
+    padding-left: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-color: #d9d9d931;
+    text-decoration: none;
+    height: 45px;
+    border-radius: 5px;
+}
+/*...................... Nav styling completed...................................... */
+/*...................... mainbox styling completed.................................. */
+
+ .leftCircle{
+        position: absolute;
+    filter: blur(150px);
+    border-radius: 150px;
+    margin-left: 800px;
+    width: 350px;
+  height:235px;
+    background-color: #EF961A;
+}
+
+ .rightCircle{
+    margin-top: 300px;
+   position: absolute;
+    filter: blur(150px);
+    border-radius: 150px;
+    width: 350px;
+    height:230px;
+        background-color: #0193FA;
+}
+
+.runTerms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #d9d9d91f;
+    top: 150px;
+    left: 100px;
+    position: relative;
+    border-radius: 15px;
+    z-index: 10;
+    width: 350px;
+    height: 350px;
+}
+
+#Jshelp{
+    background: transparent;
+     width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    border: none;
+}
+
+
+.asklogin{
+    margin-top: 50px;
+    /* top: 70px; */
+left: 770px;
+    position: absolute;
+    border-radius: 15px;
+    z-index: 10;
+    width: 250px;
+    height: 250px;
+    background-color: #d9d9d91f;
+         display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button{
+    border-radius: 10px;
+    border: none;
+    width: 50px;
+    height: 25px;
+    background-color: #d9d9d931;
+}
